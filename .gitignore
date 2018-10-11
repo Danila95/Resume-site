@@ -1,5 +1,2 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+# Игнорирование всех файлов и папок в ЛЮБЫХ директориях с указанным именем
+node_modules/*
