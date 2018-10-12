@@ -92,19 +92,19 @@ let conf = {
       },
       //работа со шрифтами
       {
-        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        test: /\.(eot|otf|svg|ttf|woff|woff2)$/,
         use: [
           {
             loader: 'file-loader',
             options: {
               name: '[path][name].[ext]',
               outputPath: (file) => {
-                let path = file.split("dev/")[1];  
-                return path
+                let path = file.split("dev/")[1];
+                let newPath = '../' + path;  
+                return newPath
               }
             }  
           },
-          'img-loader',
         ]
       },
     ]
