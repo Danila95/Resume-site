@@ -150,12 +150,13 @@ table {
 }
 .column1 {
   border: solid #000 1px;
+  width: 500px;
 }
 .column2 {
   border: solid #000 1px;
 }
 .introduction {
-  margin: 13px 110px 0px 89px;
+  margin: 13px 110px 74px 89px;
 }
 .introduction__round {
   width: 256px;
@@ -190,7 +191,39 @@ table {
 .introduction__job {
   font-size: 26px;
   text-transform: uppercase;
-  font-family: 'MyriadPro-Bold';
   text-align: center;
+  font-family: 'MyriadPro-Bold';
   line-height: 2.1;
+}
+.profile__text {
+  font-family: 'MyriadPro-Regular';
+  font-size: 17px;
+  line-height: 1.3;
+}
+.profile__text span {
+  font-family: 'MyriadPro-Bold';
+}
+.profile__title {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+}
+.profile__title img {
+  height: 83px;
+  width: 83px;
+}
+.profile__title span {
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}
+.profile__title hr {
+  border: 0;
+  border-bottom: 4px solid;
+  position: absolute;
+  bottom: -67px;
+  left: 338px;
+  width: 183px;
+  color: #3d6cb0;
 }
