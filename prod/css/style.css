@@ -221,9 +221,98 @@ table {
 .profile__title hr {
   border: 0;
   border-bottom: 4px solid;
-  position: absolute;
-  bottom: -67px;
-  left: 338px;
+  position: relative;
+  bottom: 78px;
+  left: 113px;
   width: 183px;
   color: #3d6cb0;
+}
+.contact {
+  margin-top: 56px;
+}
+.contact__title {
+  margin-bottom: 21px;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+}
+.contact__title img {
+  height: 83px;
+  width: 83px;
+}
+.contact__title span {
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}
+.contact__title hr {
+  border: 0;
+  border-bottom: 4px solid;
+  position: relative;
+  bottom: 82px;
+  left: 124px;
+  width: 164px;
+  color: #3d6cb0;
+}
+.contact__address {
+  margin-bottom: 39px;
+}
+.contact__address h3 {
+  display: inline;
+  font-family: 'MyriadPro-Bold';
+  text-transform: uppercase;
+  color: #3d6cb0;
+  font-size: 22px;
+}
+.contact__address span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 22px;
+  position: relative;
+  left: 51px;
+}
+.contact__e-mail {
+  margin-bottom: 37px;
+}
+.contact__e-mail h3 {
+  display: inline;
+  font-family: 'MyriadPro-Bold';
+  text-transform: uppercase;
+  color: #3d6cb0;
+  font-size: 22px;
+}
+.contact__e-mail span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 22px;
+  position: relative;
+  left: 75px;
+}
+.contact__phone {
+  margin-bottom: 38px;
+}
+.contact__phone h3 {
+  display: inline;
+  font-family: 'MyriadPro-Bold';
+  text-transform: uppercase;
+  color: #3d6cb0;
+  font-size: 22px;
+}
+.contact__phone span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 22px;
+  position: relative;
+  left: 73px;
+}
+.contact__website h3 {
+  display: inline;
+  font-family: 'MyriadPro-Bold';
+  text-transform: uppercase;
+  color: #3d6cb0;
+  font-size: 22px;
+}
+.contact__website span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 22px;
+  position: relative;
+  left: 56px;
 }
