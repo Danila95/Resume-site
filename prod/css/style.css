@@ -154,6 +154,7 @@ table {
 }
 .column2 {
   border: solid #000 1px;
+  width: 697px;
 }
 .introduction {
   margin: 13px 110px 74px 89px;
@@ -199,6 +200,8 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 17px;
   line-height: 1.3;
+  position: relative;
+  top: -49px;
 }
 .profile__text span {
   font-family: 'MyriadPro-Bold';
@@ -228,10 +231,13 @@ table {
   color: #3d6cb0;
 }
 .contact {
-  margin-top: 56px;
+  margin-bottom: 30px;
+}
+.contact .contact-data {
+  position: relative;
+  bottom: 22px;
 }
 .contact__title {
-  margin-bottom: 21px;
   text-transform: uppercase;
   font-size: 45px;
   font-family: 'MyriadPro-Bold';
@@ -250,7 +256,7 @@ table {
   border: 0;
   border-bottom: 4px solid;
   position: relative;
-  bottom: 82px;
+  bottom: 76px;
   left: 124px;
   width: 164px;
   color: #3d6cb0;
@@ -315,4 +321,137 @@ table {
   font-size: 22px;
   position: relative;
   left: 56px;
+}
+.skills__title {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+}
+.skills__title img {
+  height: 83px;
+  width: 83px;
+}
+.skills__title span {
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}
+.skills__title hr {
+  border: 0;
+  border-bottom: 4px solid;
+  position: relative;
+  bottom: 78px;
+  left: 97px;
+  width: 211px;
+  color: #3d6cb0;
+}
+.skills__creative-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 34px;
+  left: -19px;
+}
+.skills__creative-levels .level-1,
+.skills__creative-levels .level-2,
+.skills__creative-levels .level-3,
+.skills__creative-levels .level-4,
+.skills__creative-levels .level-5,
+.skills__creative-levels .level-6,
+.skills__creative-levels .level-7,
+.skills__creative-levels .level-8,
+.skills__creative-levels .level-9 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+}
+.skills__creative-levels .level-10-cls,
+.skills__creative-levels .level-11-cls,
+.skills__creative-levels .level-12-cls {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+}
+.skills__teamwork-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: -1px;
+  left: -21px;
+  display: block;
+}
+.skills__teamwork-levels .level-1,
+.skills__teamwork-levels .level-2,
+.skills__teamwork-levels .level-3,
+.skills__teamwork-levels .level-4,
+.skills__teamwork-levels .level-5,
+.skills__teamwork-levels .level-6,
+.skills__teamwork-levels .level-7,
+.skills__teamwork-levels .level-8,
+.skills__teamwork-levels .level-9 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+}
+.skills__teamwork-levels .level-10-cls,
+.skills__teamwork-levels .level-11-cls,
+.skills__teamwork-levels .level-12-cls {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+}
+.education__title {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+}
+.education__title img {
+  height: 83px;
+  width: 83px;
+}
+.education__title span {
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+}
+.education__title hr {
+  border: 0;
+  border-bottom: 4px solid;
+  position: relative;
+  bottom: 76px;
+  left: 124px;
+  width: 164px;
+  color: #3d6cb0;
 }
