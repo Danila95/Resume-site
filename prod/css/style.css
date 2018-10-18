@@ -154,10 +154,12 @@ table {
 }
 .column2 {
   border: solid #000 1px;
-  width: 697px;
+  width: 677px;
 }
 .introduction {
   margin: 13px 110px 74px 89px;
+  display: flex;
+  flex-direction: column;
 }
 .introduction__round {
   width: 256px;
@@ -196,6 +198,10 @@ table {
   font-family: 'MyriadPro-Bold';
   line-height: 2.1;
 }
+.profile {
+  display: flex;
+  flex-direction: column;
+}
 .profile__text {
   font-family: 'MyriadPro-Regular';
   font-size: 17px;
@@ -211,6 +217,8 @@ table {
   font-size: 45px;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
+  display: flex;
+  margin-bottom: 56px;
 }
 .profile__title img {
   height: 83px;
@@ -218,30 +226,30 @@ table {
 }
 .profile__title span {
   position: relative;
-  bottom: 30px;
+  bottom: -14px;
   left: 10px;
 }
 .profile__title hr {
   border: 0;
-  border-bottom: 4px solid;
+  border-bottom: 5px solid;
   position: relative;
-  bottom: 78px;
-  left: 113px;
+  bottom: 21px;
   width: 183px;
   color: #3d6cb0;
+  margin-left: 21px;
 }
 .contact {
-  margin-bottom: 30px;
-}
-.contact .contact-data {
-  position: relative;
-  bottom: 22px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
 }
 .contact__title {
   text-transform: uppercase;
   font-size: 45px;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
+  display: flex;
+  margin-bottom: 37px;
 }
 .contact__title img {
   height: 83px;
@@ -249,17 +257,17 @@ table {
 }
 .contact__title span {
   position: relative;
-  bottom: 30px;
+  bottom: -18px;
   left: 10px;
 }
 .contact__title hr {
   border: 0;
   border-bottom: 4px solid;
   position: relative;
-  bottom: 76px;
-  left: 124px;
+  bottom: 18px;
   width: 164px;
   color: #3d6cb0;
+  margin-left: 19px;
 }
 .contact__address {
   margin-bottom: 39px;
@@ -322,11 +330,17 @@ table {
   position: relative;
   left: 56px;
 }
+.skills {
+  display: flex;
+  flex-direction: column;
+}
 .skills__title {
   text-transform: uppercase;
   font-size: 45px;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
+  display: flex;
+  margin-bottom: 59px;
 }
 .skills__title img {
   height: 83px;
@@ -334,17 +348,17 @@ table {
 }
 .skills__title span {
   position: relative;
-  bottom: 30px;
+  bottom: -18px;
   left: 10px;
 }
 .skills__title hr {
   border: 0;
   border-bottom: 4px solid;
   position: relative;
-  bottom: 78px;
-  left: 97px;
+  bottom: 19px;
   width: 211px;
   color: #3d6cb0;
+  margin-left: 22px;
 }
 .skills__creative-title span {
   font-family: 'MyriadPro-Regular';
@@ -355,6 +369,9 @@ table {
   position: relative;
   bottom: 34px;
   left: -19px;
+}
+.skills__creative-levels {
+  display: flex;
 }
 .skills__creative-levels .level-1,
 .skills__creative-levels .level-2,
@@ -373,11 +390,10 @@ table {
   left: 42px;
   position: relative;
   margin-left: 8px;
-  display: inline-block;
 }
-.skills__creative-levels .level-10-cls,
-.skills__creative-levels .level-11-cls,
-.skills__creative-levels .level-12-cls {
+.skills__creative-levels .level-10,
+.skills__creative-levels .level-11,
+.skills__creative-levels .level-12 {
   width: 19px;
   height: 19px;
   background: #e6e6e6;
@@ -388,6 +404,9 @@ table {
   margin-left: 8px;
   display: inline-block;
 }
+.skills__teamwork-title {
+  margin-bottom: 37px;
+}
 .skills__teamwork-title span {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
@@ -395,9 +414,12 @@ table {
   display: block;
   text-align: center;
   position: relative;
-  bottom: -1px;
+  bottom: -4px;
   left: -21px;
   display: block;
+}
+.skills__teamwork-levels {
+  display: flex;
 }
 .skills__teamwork-levels .level-1,
 .skills__teamwork-levels .level-2,
@@ -407,7 +429,9 @@ table {
 .skills__teamwork-levels .level-6,
 .skills__teamwork-levels .level-7,
 .skills__teamwork-levels .level-8,
-.skills__teamwork-levels .level-9 {
+.skills__teamwork-levels .level-9,
+.skills__teamwork-levels .level-10,
+.skills__teamwork-levels .level-11 {
   width: 19px;
   height: 19px;
   background: #3d6cb0;
@@ -418,9 +442,7 @@ table {
   margin-left: 8px;
   display: inline-block;
 }
-.skills__teamwork-levels .level-10-cls,
-.skills__teamwork-levels .level-11-cls,
-.skills__teamwork-levels .level-12-cls {
+.skills__teamwork-levels .level-12 {
   width: 19px;
   height: 19px;
   background: #e6e6e6;
@@ -431,7 +453,108 @@ table {
   margin-left: 8px;
   display: inline-block;
 }
+.skills__innovate-title {
+  margin-bottom: 37px;
+}
+.skills__innovate-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: -4px;
+  left: -19px;
+}
+.skills__innovate-levels {
+  display: flex;
+}
+.skills__innovate-levels .level-1,
+.skills__innovate-levels .level-2,
+.skills__innovate-levels .level-3,
+.skills__innovate-levels .level-4,
+.skills__innovate-levels .level-5,
+.skills__innovate-levels .level-6 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+}
+.skills__innovate-levels .level-7,
+.skills__innovate-levels .level-8,
+.skills__innovate-levels .level-9,
+.skills__innovate-levels .level-10,
+.skills__innovate-levels .level-11,
+.skills__innovate-levels .level-12 {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+}
+.skills__communication-title {
+  margin-bottom: 37px;
+}
+.skills__communication-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: -4px;
+  left: -19px;
+}
+.skills__communication-levels {
+  display: flex;
+}
+.skills__communication-levels .level-1,
+.skills__communication-levels .level-2,
+.skills__communication-levels .level-3,
+.skills__communication-levels .level-4,
+.skills__communication-levels .level-5,
+.skills__communication-levels .level-6,
+.skills__communication-levels .level-7,
+.skills__communication-levels .level-8,
+.skills__communication-levels .level-9,
+.skills__communication-levels .level-10,
+.skills__communication-levels .level-11 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+}
+.skills__communication-levels .level-12 {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 8px;
+  display: inline-block;
+}
+.education {
+  display: flex;
+  flex-direction: column;
+}
 .education__title {
+  display: flex;
   text-transform: uppercase;
   font-size: 45px;
   font-family: 'MyriadPro-Bold';
@@ -443,15 +566,15 @@ table {
 }
 .education__title span {
   position: relative;
-  bottom: 30px;
-  left: 10px;
+  bottom: -13px;
+  left: 19px;
 }
 .education__title hr {
   border: 0;
-  border-bottom: 4px solid;
+  border-bottom: 5px solid;
   position: relative;
-  bottom: 76px;
-  left: 124px;
-  width: 164px;
+  bottom: 23px;
+  left: 25px;
+  width: 342px;
   color: #3d6cb0;
 }
