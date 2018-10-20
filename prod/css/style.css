@@ -149,11 +149,9 @@ table {
   margin: 85px 65px;
 }
 .column1 {
-  border: solid #000 1px;
   width: 500px;
 }
 .column2 {
-  border: solid #000 1px;
   width: 677px;
 }
 .introduction {
@@ -389,7 +387,8 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 11px;
+  display: inline-block;
 }
 .skills__creative-levels .level-10,
 .skills__creative-levels .level-11,
@@ -401,7 +400,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 11px;
   display: inline-block;
 }
 .skills__teamwork-title {
@@ -439,7 +438,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 11px;
   display: inline-block;
 }
 .skills__teamwork-levels .level-12 {
@@ -450,7 +449,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 11px;
   display: inline-block;
 }
 .skills__innovate-title {
@@ -482,7 +481,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 11px;
   display: inline-block;
 }
 .skills__innovate-levels .level-7,
@@ -498,7 +497,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 11px;
   display: inline-block;
 }
 .skills__communication-title {
@@ -535,7 +534,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 11px;
   display: inline-block;
 }
 .skills__communication-levels .level-12 {
@@ -552,6 +551,24 @@ table {
 .education {
   display: flex;
   flex-direction: column;
+  margin-bottom: 33px;
+}
+.education ul {
+  list-style: none;
+  margin-left: 14px;
+}
+.education li {
+  list-style-type: none;
+  height: 152px;
+}
+.education li:before {
+  content: '';
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #000;
 }
 .education__title {
   display: flex;
@@ -559,6 +576,7 @@ table {
   font-size: 45px;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
+  margin-bottom: 28px;
 }
 .education__title img {
   height: 83px;
@@ -577,4 +595,114 @@ table {
   left: 25px;
   width: 342px;
   color: #3d6cb0;
+}
+.education__master-degree {
+  margin-left: 44px;
+  font-size: 28px;
+  line-height: 1.2;
+  position: relative;
+  top: -28px;
+  margin-bottom: 20px;
+}
+.education__master-degree span {
+  text-transform: uppercase;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+}
+.education__master-degree p {
+  text-transform: uppercase;
+  font-family: 'MyriadPro-Regular';
+}
+.education__master-degree h3 {
+  display: inline;
+  font-family: 'MyriadPro-Regular';
+}
+.education__description {
+  margin-left: 44px;
+  position: relative;
+  top: -39px;
+}
+.education__description span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 17px;
+  line-height: 1.2;
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 33px;
+}
+.experience ul {
+  list-style: none;
+  margin-left: 14px;
+}
+.experience li {
+  list-style-type: none;
+  height: 152px;
+}
+.experience li:before {
+  content: '';
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  vertical-align: middle;
+  border-radius: 50%;
+  background-color: #000;
+}
+.experience__title {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+  margin-bottom: 47px;
+}
+.experience__title img {
+  height: 83px;
+  width: 83px;
+}
+.experience__title span {
+  position: relative;
+  bottom: -13px;
+  left: 19px;
+}
+.experience__title hr {
+  border: 0;
+  border-bottom: 5px solid;
+  position: relative;
+  bottom: 23px;
+  left: 25px;
+  width: 342px;
+  color: #3d6cb0;
+}
+.experience__company-name {
+  margin-left: 44px;
+  font-size: 28px;
+  line-height: 1.2;
+  position: relative;
+  top: -28px;
+  margin-bottom: 20px;
+}
+.experience__company-name span {
+  text-transform: uppercase;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+}
+.experience__company-name p {
+  text-transform: uppercase;
+  font-family: 'MyriadPro-Regular';
+}
+.experience__company-name h3 {
+  display: inline;
+  font-family: 'MyriadPro-Regular';
+}
+.experience__description {
+  margin-left: 44px;
+  position: relative;
+  top: -39px;
+}
+.experience__description span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 17px;
+  line-height: 1.2;
 }
