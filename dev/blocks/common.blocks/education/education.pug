@@ -1,5 +1,28 @@
+mixin education-name(degreeEducation, yearsEducation, nameUniversity)
+	div.education__master-degree
+		span #{degreeEducation} &nbsp;&nbsp;
+		h3 #{yearsEducation}
+		p #{nameUniversity}
 .education
 	.education__title
 		img(src="./img/education.jpg" alt="education" title="education")
 		span education
 		hr
+	ul
+		li 
+			+education-name("master degree","// Feb 2011 - Jun 2014","university name")
+			.education__description
+				span Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+		li 
+			+education-name("master degree","// Feb 2011 - Jun 2014","university name")
+			.education__description
+				span Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+		li 
+			+education-name("master degree","// Feb 2011 - Jun 2014","university name")
+			.education__description
+				span Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+		li 
+			+education-name("master degree","// Feb 2011 - Jun 2014","university name")
+			.education__description
+				span Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
+
