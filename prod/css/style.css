@@ -706,3 +706,290 @@ table {
   font-size: 17px;
   line-height: 1.2;
 }
+.software {
+  display: flex;
+  flex-direction: column;
+}
+.software .wrapper-column {
+  display: flex;
+  justify-content: space-between;
+}
+.software__title {
+  display: flex;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: 'MyriadPro-Bold';
+  color: #3d6cb0;
+  margin-bottom: 26px;
+}
+.software__title img {
+  height: 83px;
+  width: 83px;
+}
+.software__title span {
+  position: relative;
+  bottom: -21px;
+  left: 19px;
+}
+.software__title hr {
+  border: 0;
+  border-bottom: 5px solid;
+  position: relative;
+  bottom: 15px;
+  left: 46px;
+  width: 342px;
+  color: #3d6cb0;
+}
+.software__photoshop-title {
+  margin-bottom: 37px;
+}
+.software__photoshop-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  position: relative;
+  bottom: -4px;
+  left: 7px;
+}
+.skills__teamwork-levels {
+  display: flex;
+}
+.skills__teamwork-levels .level-1,
+.skills__teamwork-levels .level-2,
+.skills__teamwork-levels .level-3,
+.skills__teamwork-levels .level-4,
+.skills__teamwork-levels .level-5,
+.skills__teamwork-levels .level-6,
+.skills__teamwork-levels .level-7,
+.skills__teamwork-levels .level-8,
+.skills__teamwork-levels .level-9,
+.skills__teamwork-levels .level-10,
+.skills__teamwork-levels .level-11 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.skills__teamwork-levels .level-12 {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.software__illustrator-title {
+  margin-bottom: 37px;
+}
+.software__illustrator-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  position: relative;
+  bottom: -4px;
+  left: 7px;
+}
+.skills__teamwork-levels {
+  display: flex;
+}
+.skills__teamwork-levels .level-1,
+.skills__teamwork-levels .level-2,
+.skills__teamwork-levels .level-3,
+.skills__teamwork-levels .level-4,
+.skills__teamwork-levels .level-5,
+.skills__teamwork-levels .level-6,
+.skills__teamwork-levels .level-7,
+.skills__teamwork-levels .level-8,
+.skills__teamwork-levels .level-9,
+.skills__teamwork-levels .level-10,
+.skills__teamwork-levels .level-11 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.skills__teamwork-levels .level-12 {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.software__indesign-title {
+  margin-bottom: 37px;
+}
+.software__indesign-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  position: relative;
+  bottom: -4px;
+  left: 7px;
+}
+.skills__teamwork-levels {
+  display: flex;
+}
+.skills__teamwork-levels .level-1,
+.skills__teamwork-levels .level-2,
+.skills__teamwork-levels .level-3,
+.skills__teamwork-levels .level-4,
+.skills__teamwork-levels .level-5,
+.skills__teamwork-levels .level-6,
+.skills__teamwork-levels .level-7,
+.skills__teamwork-levels .level-8,
+.skills__teamwork-levels .level-9,
+.skills__teamwork-levels .level-10,
+.skills__teamwork-levels .level-11 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.skills__teamwork-levels .level-12 {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.software__dreamweaver-title {
+  margin-bottom: 37px;
+}
+.software__dreamweaver-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  position: relative;
+  bottom: -4px;
+  left: 7px;
+}
+.skills__teamwork-levels {
+  display: flex;
+}
+.skills__teamwork-levels .level-1,
+.skills__teamwork-levels .level-2,
+.skills__teamwork-levels .level-3,
+.skills__teamwork-levels .level-4,
+.skills__teamwork-levels .level-5,
+.skills__teamwork-levels .level-6,
+.skills__teamwork-levels .level-7,
+.skills__teamwork-levels .level-8,
+.skills__teamwork-levels .level-9,
+.skills__teamwork-levels .level-10,
+.skills__teamwork-levels .level-11 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.skills__teamwork-levels .level-12 {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.software__after-effects-title {
+  margin-bottom: 37px;
+}
+.software__after-effects-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  position: relative;
+  bottom: -4px;
+  left: 7px;
+}
+.software__html-and-css3-title {
+  margin-bottom: 37px;
+}
+.software__html-and-css3-title span {
+  font-family: 'MyriadPro-Regular';
+  font-size: 28px;
+  text-transform: uppercase;
+  display: block;
+  text-align: left;
+  position: relative;
+  bottom: -4px;
+  left: 7px;
+}
+.skills__teamwork-levels {
+  display: flex;
+}
+.skills__teamwork-levels .level-1,
+.skills__teamwork-levels .level-2,
+.skills__teamwork-levels .level-3,
+.skills__teamwork-levels .level-4,
+.skills__teamwork-levels .level-5,
+.skills__teamwork-levels .level-6,
+.skills__teamwork-levels .level-7,
+.skills__teamwork-levels .level-8,
+.skills__teamwork-levels .level-9,
+.skills__teamwork-levels .level-10,
+.skills__teamwork-levels .level-11 {
+  width: 19px;
+  height: 19px;
+  background: #3d6cb0;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
+.skills__teamwork-levels .level-12 {
+  width: 19px;
+  height: 19px;
+  background: #e6e6e6;
+  border-radius: 15px;
+  top: -21px;
+  left: 42px;
+  position: relative;
+  margin-left: 11px;
+  display: inline-block;
+}
