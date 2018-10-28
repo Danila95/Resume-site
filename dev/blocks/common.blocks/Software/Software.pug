@@ -1,3 +1,6 @@
+mixin level()
+	.full-level
+	.no-full-level
 .software
 	.software__title
 		img(src="./img/software.jpg" alt="software" title="software")
@@ -8,19 +11,25 @@
 			.software__photoshop-title
 				span photoshop
 			.software__photoshop-level
+				+level()
 			.software__illustrator-title
 				span illustrator
 			.software__illustrator-level
+				+level()
 			.software__indesign-title
 				span indesign
 			.software__indesign-level
+				+level()
 		.right-column
 			.software__dreamweaver-title
 				span dreamweaver
 			.software__dreamweaver-level
+				+level()
 			.software__after-effects-title
 				span after-effects
 			.software__after-effects-level
+				+level()
 			.software__html-and-css3-title
 				span html&css3
 			.software__html-and-css3-level
+				+level()
