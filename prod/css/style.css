@@ -142,22 +142,251 @@ table {
   font-weight: normal;
   font-style: normal;
 }
+@media screen and (max-width: 1310px) {
+  .right-column {
+    margin-left: -56px;
+  }
+}
+@media screen and (max-width: 1264px) {
+  li {
+    margin-bottom: 3%;
+  }
+}
+@media screen and (max-width: 1213px) {
+  .software__after-effects-level,
+  .software__dreamweaver-level,
+  .software__html-and-css3-level,
+  .software__illustrator-level,
+  .software__indesign-level,
+  .software__photoshop-level {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1156px) {
+  .software__after-effects-level,
+  .software__dreamweaver-level,
+  .software__html-and-css3-level,
+  .software__illustrator-level,
+  .software__indesign-level,
+  .software__photoshop-level {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .skills__creative-title span {
+    left: 157px !important;
+  }
+  .skills__teamwork-title span {
+    left: 138px !important;
+  }
+  .skills__innovate-title span {
+    left: 150px !important;
+  }
+  .skills__communication-title span {
+    left: 104px !important;
+  }
+}
+@media screen and (max-width: 1098px) {
+  .right-column {
+    margin-left: -76px;
+  }
+  .experience h3 {
+    font-size: 0.9em;
+  }
+  .experience p {
+    font-size: 0.9em;
+  }
+  .education h3 {
+    font-size: 0.9em;
+  }
+  .education p {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 1085px) {
+  .introduction__name {
+    font-size: 3.5em !important;
+  }
+  .introduction__surname {
+    font-size: 4.19em !important;
+  }
+  .introduction__job {
+    font-size: 1.66em !important;
+  }
+}
+@media screen and (max-width: 1049px) {
+  .experience h3 {
+    font-size: 0.8em;
+  }
+  .experience p {
+    font-size: 0.8em;
+  }
+  .education h3 {
+    font-size: 0.8em;
+  }
+  .education p {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 1033px) {
+  .introduction__name {
+    font-size: 3.4em !important;
+  }
+  .introduction__surname {
+    font-size: 3.9em !important;
+  }
+  .introduction__job {
+    font-size: 1.46em !important;
+  }
+  .profile__title {
+    font-size: 2.6em !important;
+  }
+  .profile__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .contact__title {
+    font-size: 2.6em !important;
+  }
+  .contact__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .skills__title {
+    font-size: 2.6em !important;
+  }
+  .skills__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .software__title {
+    font-size: 2.6em !important;
+  }
+  .software__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .education__title {
+    font-size: 2.6em !important;
+  }
+  .education__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .experience__title {
+    font-size: 2.6em !important;
+  }
+  .experience__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .skills__creative-title span {
+    left: 137px !important;
+  }
+  .skills__teamwork-title span {
+    left: 118px !important;
+  }
+  .skills__innovate-title span {
+    left: 130px !important;
+  }
+  .skills__communication-title span {
+    left: 84px !important;
+  }
+}
+@media screen and (max-width: 1008px) {
+  .introduction__name {
+    font-size: 3.2em !important;
+  }
+  .introduction__surname {
+    font-size: 3.7em !important;
+  }
+  .introduction__job {
+    font-size: 1.26em !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .right-column {
+    margin-left: -105px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .experience__company-name {
+    font-size: 1.5em !important;
+  }
+  .education__master-degree {
+    font-size: 1.5em !important;
+  }
+  .experience h3 {
+    font-size: 0.7em;
+  }
+  .experience p {
+    font-size: 0.7em;
+  }
+  .education h3 {
+    font-size: 0.7em;
+  }
+  .education p {
+    font-size: 0.7em;
+  }
+  .profile__title {
+    font-size: 2.4em !important;
+  }
+  .profile__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .contact__title {
+    font-size: 2.4em !important;
+  }
+  .contact__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .skills__title {
+    font-size: 2.4em !important;
+  }
+  .skills__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .software__title {
+    font-size: 2.4em !important;
+  }
+  .software__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .education__title {
+    font-size: 2.4em !important;
+  }
+  .education__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .experience__title {
+    font-size: 2.4em !important;
+  }
+  .experience__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+}
 .wrapper {
   display: flex;
   flex-wrap: nowrap;
   margin: 85px 65px;
+  position: relative;
 }
 .column1 {
-  width: 500px;
+  width: 48.32723279648609%;
 }
 .column2 {
-  width: 677px;
-  margin-left: 41px;
+  width: 52%;
+  margin-left: -5px;
 }
 .introduction {
-  margin: 13px 110px 74px 89px;
-  display: flex;
-  flex-direction: column;
+  margin: 13px 110px -152px auto;
+  width: 66.77649643053267%;
 }
 .introduction__round {
   width: 256px;
@@ -173,50 +402,54 @@ table {
   height: 223px;
   background: #3d6cb0;
   border-radius: 130px;
-  top: 114px;
-  left: 193px;
-  position: absolute;
+  top: -242px;
+  left: 38px;
+  position: relative;
 }
 .introduction__name {
   margin-top: 30px;
-  font-size: 57px;
+  font-size: 3.7em;
   text-transform: uppercase;
   font-family: 'MyriadPro-LightSemiExt';
+  position: relative;
+  top: -223px;
 }
 .introduction__surname {
-  font-size: 66px;
+  font-size: 4.21em;
   text-transform: uppercase;
   font-family: 'MyriadPro-Bold';
   line-height: 0.9;
+  position: relative;
+  top: -221px;
 }
 .introduction__job {
-  font-size: 26px;
+  font-size: 1.68em;
   text-transform: uppercase;
-  text-align: center;
   font-family: 'MyriadPro-Bold';
   line-height: 2.1;
+  position: relative;
+  left: 35px;
+  top: -221px;
 }
 .profile {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 6px;
 }
 .profile__text {
   font-family: 'MyriadPro-Regular';
   font-size: 17px;
   line-height: 1.3;
+  width: 83%;
   position: relative;
-  top: -49px;
+  top: -48px;
 }
 .profile__text span {
   font-family: 'MyriadPro-Bold';
 }
 .profile__title {
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 2.8em;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
-  display: flex;
-  margin-bottom: 56px;
 }
 .profile__title img {
   height: 83px;
@@ -224,30 +457,28 @@ table {
 }
 .profile__title span {
   position: relative;
-  bottom: -14px;
-  left: 10px;
+  top: -27px;
+  left: 12px;
 }
 .profile__title hr {
   border: 0;
   border-bottom: 5px solid;
   position: relative;
-  bottom: 21px;
-  width: 183px;
+  top: -76px;
+  width: 31.2%;
   color: #3d6cb0;
-  margin-left: 21px;
+  left: 71px;
 }
 .contact {
-  margin-bottom: 48px;
-  display: flex;
-  flex-direction: column;
+  width: 68.96159963644627%;
+  margin-bottom: 44px;
 }
 .contact__title {
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 2.8em;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
-  display: flex;
-  margin-bottom: 37px;
+  margin-bottom: -27px;
 }
 .contact__title img {
   height: 83px;
@@ -255,17 +486,17 @@ table {
 }
 .contact__title span {
   position: relative;
-  bottom: -18px;
-  left: 10px;
+  top: -30px;
+  left: 12px;
 }
 .contact__title hr {
   border: 0;
-  border-bottom: 4px solid;
+  border-bottom: 5px solid;
   position: relative;
-  bottom: 18px;
-  width: 164px;
+  top: -79px;
+  width: 40.4%;
   color: #3d6cb0;
-  margin-left: 19px;
+  left: 172px;
 }
 .contact__address {
   margin-bottom: 39px;
@@ -329,16 +560,14 @@ table {
   left: 56px;
 }
 .skills {
-  display: flex;
-  flex-direction: column;
+  width: 68.96159963644627%;
 }
 .skills__title {
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 2.8em;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
-  display: flex;
-  margin-bottom: 59px;
+  margin-bottom: 29px;
 }
 .skills__title img {
   height: 83px;
@@ -346,27 +575,26 @@ table {
 }
 .skills__title span {
   position: relative;
-  bottom: -18px;
-  left: 10px;
+  bottom: 24px;
+  left: 9px;
 }
 .skills__title hr {
   border: 0;
-  border-bottom: 4px solid;
+  border-bottom: 5px solid;
   position: relative;
-  bottom: 19px;
-  width: 211px;
+  bottom: 70px;
+  width: 52.4%;
   color: #3d6cb0;
-  margin-left: 22px;
+  left: 145px;
 }
 .skills__creative-title span {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
   display: block;
-  text-align: center;
   position: relative;
   bottom: 34px;
-  left: -19px;
+  left: 177px;
 }
 .skills__creative-levels {
   display: flex;
@@ -387,7 +615,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 11px;
+  margin-left: 2.67%;
   display: inline-block;
 }
 .skills__creative-levels .level-10,
@@ -400,7 +628,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 11px;
+  margin-left: 2.97%;
   display: inline-block;
 }
 .skills__teamwork-title {
@@ -410,12 +638,9 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: center;
   position: relative;
-  bottom: -4px;
-  left: -21px;
-  display: block;
+  bottom: -3px;
+  left: 158px;
 }
 .skills__teamwork-levels {
   display: flex;
@@ -438,7 +663,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 11px;
+  margin-left: 2.67%;
   display: inline-block;
 }
 .skills__teamwork-levels .level-12 {
@@ -449,7 +674,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 11px;
+  margin-left: 2.97%;
   display: inline-block;
 }
 .skills__innovate-title {
@@ -459,11 +684,9 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: center;
   position: relative;
   bottom: -4px;
-  left: -19px;
+  left: 170px;
 }
 .skills__innovate-levels {
   display: flex;
@@ -481,7 +704,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 11px;
+  margin-left: 2.67%;
   display: inline-block;
 }
 .skills__innovate-levels .level-7,
@@ -497,7 +720,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 11px;
+  margin-left: 2.97%;
   display: inline-block;
 }
 .skills__communication-title {
@@ -507,11 +730,9 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: center;
   position: relative;
   bottom: -4px;
-  left: -19px;
+  left: 124px;
 }
 .skills__communication-levels {
   display: flex;
@@ -534,7 +755,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 11px;
+  margin-left: 2.67%;
   display: inline-block;
 }
 .skills__communication-levels .level-12 {
@@ -545,7 +766,7 @@ table {
   top: -21px;
   left: 42px;
   position: relative;
-  margin-left: 8px;
+  margin-left: 2.97%;
   display: inline-block;
 }
 .education {
@@ -555,7 +776,7 @@ table {
 }
 .education ul {
   list-style: none;
-  margin-left: 14px;
+  margin-left: -31px;
 }
 .education li {
   list-style-type: none;
@@ -571,34 +792,35 @@ table {
   background-color: #000;
 }
 .education__title {
-  display: flex;
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 2.8em;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
-  margin-bottom: 28px;
+  margin-bottom: -30px;
 }
 .education__title img {
   height: 83px;
   width: 83px;
+  position: relative;
+  left: -45px;
 }
 .education__title span {
   position: relative;
-  bottom: -13px;
-  left: 19px;
+  top: -31px;
+  left: -25px;
 }
 .education__title hr {
   border: 0;
   border-bottom: 5px solid;
   position: relative;
-  bottom: 23px;
-  left: 25px;
-  width: 342px;
+  top: -80px;
+  left: 164px;
+  width: 54%;
   color: #3d6cb0;
 }
 .education__master-degree {
   margin-left: 44px;
-  font-size: 28px;
+  font-size: 1.7em;
   line-height: 1.2;
   position: relative;
   top: -28px;
@@ -634,7 +856,7 @@ table {
 }
 .experience ul {
   list-style: none;
-  margin-left: 14px;
+  margin-left: -31px;
 }
 .experience li {
   list-style-type: none;
@@ -652,7 +874,7 @@ table {
 .experience__title {
   display: flex;
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 2.8em;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
   margin-bottom: 47px;
@@ -660,24 +882,26 @@ table {
 .experience__title img {
   height: 83px;
   width: 83px;
+  position: relative;
+  left: -45px;
 }
 .experience__title span {
   position: relative;
-  bottom: -13px;
-  left: 19px;
+  bottom: -18px;
+  left: -24px;
 }
 .experience__title hr {
   border: 0;
   border-bottom: 5px solid;
   position: relative;
-  bottom: 23px;
-  left: 25px;
-  width: 342px;
+  bottom: 18px;
+  left: -20px;
+  width: 61%;
   color: #3d6cb0;
 }
 .experience__company-name {
   margin-left: 44px;
-  font-size: 28px;
+  font-size: 1.7em;
   line-height: 1.2;
   position: relative;
   top: -28px;
@@ -713,10 +937,13 @@ table {
 .software .wrapper-column {
   display: flex;
 }
+.software .wrapper-column .left-column {
+  margin-left: -50px;
+}
 .software__title {
   display: flex;
   text-transform: uppercase;
-  font-size: 45px;
+  font-size: 2.8em;
   font-family: 'MyriadPro-Bold';
   color: #3d6cb0;
   margin-bottom: 26px;
@@ -724,19 +951,21 @@ table {
 .software__title img {
   height: 83px;
   width: 83px;
+  position: relative;
+  left: -45px;
 }
 .software__title span {
   position: relative;
   bottom: -21px;
-  left: 19px;
+  left: -24px;
 }
 .software__title hr {
   border: 0;
   border-bottom: 5px solid;
   position: relative;
   bottom: 15px;
-  left: 46px;
-  width: 342px;
+  left: 3px;
+  width: 52%;
   color: #3d6cb0;
 }
 .software__photoshop-title {
@@ -746,11 +975,9 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: left;
   position: relative;
   bottom: -4px;
-  left: 7px;
+  left: 11px;
 }
 .software__photoshop-level {
   display: flex;
@@ -761,13 +988,14 @@ table {
   background: #3d6cb0;
   position: relative;
   top: -15px;
-  margin-left: 7px;
+  left: 11px;
 }
 .software__photoshop-level .no-full-level {
   width: 30px;
   height: 24px;
   position: relative;
   top: -15px;
+  left: 12px;
   background: #e6e6e6;
 }
 .software__illustrator-title {
@@ -777,11 +1005,9 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: left;
   position: relative;
   bottom: -12px;
-  left: 7px;
+  left: 11px;
 }
 .software__illustrator-level {
   display: flex;
@@ -792,13 +1018,14 @@ table {
   background: #3d6cb0;
   position: relative;
   top: -9px;
-  margin-left: 7px;
+  left: 11px;
 }
 .software__illustrator-level .no-full-level {
   width: 89px;
   height: 24px;
   position: relative;
   top: -9px;
+  left: 12px;
   background: #e6e6e6;
 }
 .software__indesign-title {
@@ -808,11 +1035,9 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: left;
   position: relative;
   bottom: -19px;
-  left: 7px;
+  left: 11px;
 }
 .software__indesign-level {
   display: flex;
@@ -823,13 +1048,14 @@ table {
   background: #3d6cb0;
   position: relative;
   top: -6px;
-  margin-left: 7px;
+  left: 11px;
 }
 .software__indesign-level .no-full-level {
   width: 133px;
   height: 24px;
   position: relative;
   top: -6px;
+  left: 12px;
   background: #e6e6e6;
 }
 .software__dreamweaver-title {
@@ -839,28 +1065,27 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: left;
   position: relative;
   bottom: -4px;
-  margin-left: 77px;
+  left: 90px;
 }
 .software__dreamweaver-level {
   display: flex;
 }
 .software__dreamweaver-level .full-level {
-  width: 253px;
+  width: 254px;
   height: 24px;
   background: #3d6cb0;
   position: relative;
   top: -15px;
-  margin-left: 75px;
+  left: 87px;
 }
 .software__dreamweaver-level .no-full-level {
   width: 52px;
   height: 24px;
   position: relative;
   top: -15px;
+  left: 86px;
   background: #e6e6e6;
 }
 .software__after-effects-title {
@@ -870,28 +1095,27 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: left;
   position: relative;
   bottom: -13px;
-  margin-left: 77px;
+  left: 90px;
 }
 .software__after-effects-level {
   display: flex;
 }
 .software__after-effects-level .full-level {
-  width: 188px;
+  width: 189px;
   height: 24px;
   background: #3d6cb0;
   position: relative;
   top: -9px;
-  margin-left: 74px;
+  left: 87px;
 }
 .software__after-effects-level .no-full-level {
   width: 119px;
   height: 24px;
   position: relative;
   top: -9px;
+  left: 86px;
   background: #e6e6e6;
 }
 .software__html-and-css3-title {
@@ -901,11 +1125,9 @@ table {
   font-family: 'MyriadPro-Regular';
   font-size: 28px;
   text-transform: uppercase;
-  display: block;
-  text-align: left;
   position: relative;
   bottom: -19px;
-  margin-left: 77px;
+  left: 90px;
 }
 .software__html-and-css3-level {
   display: flex;
@@ -916,12 +1138,13 @@ table {
   background: #3d6cb0;
   position: relative;
   top: -7px;
-  margin-left: 75px;
+  left: 87px;
 }
 .software__html-and-css3-level .no-full-level {
   width: 29px;
   height: 24px;
   position: relative;
   top: -7px;
+  left: 86px;
   background: #e6e6e6;
 }
