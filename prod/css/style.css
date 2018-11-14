@@ -173,17 +173,8 @@ table {
   }
 }
 @media screen and (max-width: 1118px) {
-  .skills__creative-title span {
-    left: 157px !important;
-  }
-  .skills__teamwork-title span {
-    left: 138px !important;
-  }
-  .skills__innovate-title span {
-    left: 150px !important;
-  }
-  .skills__communication-title span {
-    left: 104px !important;
+  .wrapper__skills {
+    margin-left: -56px;
   }
 }
 @media screen and (max-width: 1098px) {
@@ -280,17 +271,8 @@ table {
     height: 70px !important;
     width: 70px !important;
   }
-  .skills__creative-title span {
-    left: 137px !important;
-  }
-  .skills__teamwork-title span {
-    left: 118px !important;
-  }
-  .skills__innovate-title span {
-    left: 130px !important;
-  }
-  .skills__communication-title span {
-    left: 84px !important;
+  .wrapper__skills {
+    margin-left: -45px;
   }
 }
 @media screen and (max-width: 1008px) {
@@ -371,6 +353,272 @@ table {
     width: 65px !important;
   }
 }
+@media screen and (max-width: 955px) {
+  .introduction__name {
+    font-size: 3em !important;
+  }
+  .introduction__surname {
+    font-size: 3.5em !important;
+  }
+  .introduction__job {
+    font-size: 1.06em !important;
+  }
+  .introduction__circle {
+    width: 200px !important;
+    height: 200px !important;
+    top: -220px !important;
+  }
+  .introduction__round {
+    width: 233px !important;
+    height: 233px !important;
+  }
+}
+@media screen and (max-width: 946px) {
+  .software__after-effects-level,
+  .software__dreamweaver-level,
+  .software__html-and-css3-level,
+  .software__illustrator-level,
+  .software__indesign-level,
+  .software__photoshop-level {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 920px) {
+  .wrapper {
+    display: block !important;
+    margin: 0px 65px !important;
+  }
+  .column1 {
+    width: 100% !important;
+    margin-left: -45px;
+  }
+  .column2 {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  .profile__text {
+    width: 110% !important;
+  }
+  .wrapper__contact {
+    margin-left: 50%;
+  }
+  .wrapper_introduction {
+    margin-left: 30%;
+  }
+  .wrapper__skills {
+    margin-left: 34%;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .wrapper-column {
+    margin-left: 5%;
+  }
+  .left-column {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+  .right-column {
+    margin-left: -200px !important;
+    width: 100%;
+  }
+  .software {
+    margin-bottom: 50px;
+  }
+  .introduction__round {
+    width: 256px !important;
+    height: 256px !important;
+  }
+  .introduction__circle {
+    width: 223px !important;
+    height: 223px !important;
+    top: -242px !important;
+  }
+  .introduction__name {
+    font-size: 3.7em !important;
+  }
+  .introduction__surname {
+    font-size: 4.21em !important;
+  }
+  .introduction__job {
+    font-size: 1.68em !important;
+  }
+  .education__master-degree {
+    font-size: 1.7em !important;
+  }
+  .education h3,
+  p {
+    font-size: 1em !important;
+  }
+  .experience__company-name {
+    font-size: 1.7em !important;
+  }
+  .experience h3,
+  p {
+    font-size: 1em !important;
+  }
+}
+@media screen and (max-width: 864px) {
+  .wrapper-column {
+    margin-left: 0;
+  }
+  .left-column {
+    width: 80%;
+  }
+  .right-column {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 815px) {
+  .wrapper-column {
+    display: block !important;
+  }
+  .left-column {
+    margin: 0 auto !important;
+  }
+  .right-column {
+    margin: 0 auto !important;
+    width: 100%;
+  }
+  .software__after-effects-title span {
+    left: 11.5% !important;
+  }
+  .software__after-effects-level {
+    position: relative;
+    left: -1% !important;
+  }
+  .software__dreamweaver-title span {
+    left: 11.5% !important;
+  }
+  .software__dreamweaver-level {
+    position: relative;
+    left: -1% !important;
+  }
+  .software__html-and-css3-title span {
+    left: 11.5% !important;
+  }
+  .software__html-and-css3-level {
+    position: relative;
+    left: -1% !important;
+  }
+  .contact__address h3 {
+    font-size: 1.2em !important;
+  }
+  .contact__address span {
+    font-size: 1.2em !important;
+  }
+  .contact__e-mail h3 {
+    font-size: 1.1em !important;
+  }
+  .contact__e-mail span {
+    font-size: 1.2em !important;
+  }
+  .contact__phone h3 {
+    font-size: 1.2em !important;
+  }
+  .contact__phone span {
+    font-size: 1.2em !important;
+  }
+  .contact__website h3 {
+    font-size: 1.2em !important;
+  }
+  .contact__website span {
+    font-size: 1.2em !important;
+  }
+}
+@media screen and (max-width: 789px) {
+  .introduction__name {
+    font-size: 3.5em !important;
+  }
+  .introduction__surname {
+    font-size: 4.01em !important;
+  }
+  .introduction__job {
+    font-size: 1.68em !important;
+  }
+  .software__after-effects-level {
+    position: relative;
+    left: -1.5% !important;
+  }
+  .software__dreamweaver-level {
+    position: relative;
+    left: -1.5% !important;
+  }
+  .software__html-and-css3-level {
+    position: relative;
+    left: -1.5% !important;
+  }
+}
+@media screen and (max-width: 754px) {
+  .introduction__name {
+    font-size: 3.3em !important;
+  }
+  .introduction__surname {
+    font-size: 3.81em !important;
+  }
+  .introduction__job {
+    font-size: 1.48em !important;
+  }
+  .software__after-effects-level {
+    position: relative;
+    left: -2% !important;
+  }
+  .software__dreamweaver-level {
+    position: relative;
+    left: -2% !important;
+  }
+  .software__html-and-css3-level {
+    position: relative;
+    left: -2% !important;
+  }
+}
+@media screen and (max-width: 717px) {
+  .introduction__name {
+    font-size: 3.1em !important;
+  }
+  .introduction__surname {
+    font-size: 3.61em !important;
+  }
+  .introduction__job {
+    font-size: 1.28em !important;
+  }
+  .software__after-effects-level {
+    position: relative;
+    left: -3% !important;
+  }
+  .software__dreamweaver-level {
+    position: relative;
+    left: -3% !important;
+  }
+  .software__html-and-css3-level {
+    position: relative;
+    left: -3% !important;
+  }
+}
+@media screen and (max-width: 682px) {
+  .introduction__name {
+    font-size: 2.9em !important;
+  }
+  .introduction__surname {
+    font-size: 3.41em !important;
+  }
+  .introduction__job {
+    font-size: 1.08em !important;
+  }
+}
+@media screen and (max-width: 674px) {
+  .software__after-effects-level {
+    position: relative;
+    left: -4% !important;
+  }
+  .software__dreamweaver-level {
+    position: relative;
+    left: -4% !important;
+  }
+  .software__html-and-css3-level {
+    position: relative;
+    left: -4% !important;
+  }
+}
 .wrapper {
   display: flex;
   flex-wrap: nowrap;
@@ -436,7 +684,7 @@ table {
 }
 .profile__text {
   font-family: 'MyriadPro-Regular';
-  font-size: 17px;
+  font-size: 1.06em;
   line-height: 1.3;
   width: 83%;
   position: relative;
@@ -500,33 +748,35 @@ table {
 }
 .contact__address {
   margin-bottom: 39px;
+  white-space: nowrap;
 }
 .contact__address h3 {
   display: inline;
   font-family: 'MyriadPro-Bold';
   text-transform: uppercase;
   color: #3d6cb0;
-  font-size: 22px;
+  font-size: 1.4em;
 }
 .contact__address span {
   font-family: 'MyriadPro-Regular';
-  font-size: 22px;
+  font-size: 1.4em;
   position: relative;
   left: 51px;
 }
 .contact__e-mail {
   margin-bottom: 37px;
+  white-space: nowrap;
 }
 .contact__e-mail h3 {
   display: inline;
   font-family: 'MyriadPro-Bold';
   text-transform: uppercase;
   color: #3d6cb0;
-  font-size: 22px;
+  font-size: 1.4em;
 }
 .contact__e-mail span {
   font-family: 'MyriadPro-Regular';
-  font-size: 22px;
+  font-size: 1.4em;
   position: relative;
   left: 75px;
 }
@@ -538,11 +788,11 @@ table {
   font-family: 'MyriadPro-Bold';
   text-transform: uppercase;
   color: #3d6cb0;
-  font-size: 22px;
+  font-size: 1.4em;
 }
 .contact__phone span {
   font-family: 'MyriadPro-Regular';
-  font-size: 22px;
+  font-size: 1.4em;
   position: relative;
   left: 73px;
 }
@@ -551,11 +801,11 @@ table {
   font-family: 'MyriadPro-Bold';
   text-transform: uppercase;
   color: #3d6cb0;
-  font-size: 22px;
+  font-size: 1.4em;
 }
 .contact__website span {
   font-family: 'MyriadPro-Regular';
-  font-size: 22px;
+  font-size: 1.4em;
   position: relative;
   left: 56px;
 }
