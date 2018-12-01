@@ -142,505 +142,6 @@ table {
   font-weight: normal;
   font-style: normal;
 }
-@media screen and (max-width: 1310px) {
-  .right-column {
-    margin-left: -56px;
-  }
-}
-@media screen and (max-width: 1264px) {
-  li {
-    margin-bottom: 3%;
-  }
-}
-@media screen and (max-width: 1213px) {
-  .software__after-effects-level,
-  .software__dreamweaver-level,
-  .software__html-and-css3-level,
-  .software__illustrator-level,
-  .software__indesign-level,
-  .software__photoshop-level {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 1156px) {
-  .software__after-effects-level,
-  .software__dreamweaver-level,
-  .software__html-and-css3-level,
-  .software__illustrator-level,
-  .software__indesign-level,
-  .software__photoshop-level {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 1118px) {
-  .wrapper__skills {
-    margin-left: -56px;
-  }
-}
-@media screen and (max-width: 1098px) {
-  .right-column {
-    margin-left: -76px;
-  }
-  .experience h3 {
-    font-size: 0.9em;
-  }
-  .experience p {
-    font-size: 0.9em;
-  }
-  .education h3 {
-    font-size: 0.9em;
-  }
-  .education p {
-    font-size: 0.9em;
-  }
-}
-@media screen and (max-width: 1049px) {
-  .experience h3 {
-    font-size: 0.8em;
-  }
-  .experience p {
-    font-size: 0.8em;
-  }
-  .education h3 {
-    font-size: 0.8em;
-  }
-  .education p {
-    font-size: 0.8em;
-  }
-}
-@media screen and (max-width: 1033px) {
-  .profile__title {
-    font-size: 2.6em !important;
-  }
-  .profile__title img {
-    height: 70px !important;
-    width: 70px !important;
-  }
-  .contact__title {
-    font-size: 2.6em !important;
-  }
-  .contact__title img {
-    height: 70px !important;
-    width: 70px !important;
-  }
-  .skills__title {
-    font-size: 2.6em !important;
-  }
-  .skills__title img {
-    height: 70px !important;
-    width: 70px !important;
-  }
-  .software__title {
-    font-size: 2.6em !important;
-  }
-  .software__title img {
-    height: 70px !important;
-    width: 70px !important;
-  }
-  .education__title {
-    font-size: 2.6em !important;
-  }
-  .education__title img {
-    height: 70px !important;
-    width: 70px !important;
-  }
-  .experience__title {
-    font-size: 2.6em !important;
-  }
-  .experience__title img {
-    height: 70px !important;
-    width: 70px !important;
-  }
-  .wrapper__skills {
-    margin-left: -45px;
-  }
-}
-@media screen and (max-width: 990px) {
-  .right-column {
-    margin-left: -105px;
-  }
-}
-@media screen and (max-width: 975px) {
-  .experience__company-name {
-    font-size: 1.5em !important;
-  }
-  .education__master-degree {
-    font-size: 1.5em !important;
-  }
-  .experience h3 {
-    font-size: 0.7em;
-  }
-  .experience p {
-    font-size: 0.7em;
-  }
-  .education h3 {
-    font-size: 0.7em;
-  }
-  .education p {
-    font-size: 0.7em;
-  }
-  .profile__title {
-    font-size: 2.4em !important;
-  }
-  .profile__title img {
-    height: 65px !important;
-    width: 65px !important;
-  }
-  .contact__title {
-    font-size: 2.4em !important;
-  }
-  .contact__title img {
-    height: 65px !important;
-    width: 65px !important;
-  }
-  .skills__title {
-    font-size: 2.4em !important;
-  }
-  .skills__title img {
-    height: 65px !important;
-    width: 65px !important;
-  }
-  .software__title {
-    font-size: 2.4em !important;
-  }
-  .software__title img {
-    height: 65px !important;
-    width: 65px !important;
-  }
-  .education__title {
-    font-size: 2.4em !important;
-  }
-  .education__title img {
-    height: 65px !important;
-    width: 65px !important;
-  }
-  .experience__title {
-    font-size: 2.4em !important;
-  }
-  .experience__title img {
-    height: 65px !important;
-    width: 65px !important;
-  }
-}
-@media screen and (max-width: 946px) {
-  .software__after-effects-level,
-  .software__dreamweaver-level,
-  .software__html-and-css3-level,
-  .software__illustrator-level,
-  .software__indesign-level,
-  .software__photoshop-level {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 920px) {
-  .wrapper {
-    display: block !important;
-    margin: 0px 65px !important;
-  }
-  .column1 {
-    width: 100% !important;
-    margin-left: -45px;
-  }
-  .column2 {
-    width: 100% !important;
-    margin-left: 0px !important;
-  }
-  .profile__text {
-    width: 110% !important;
-  }
-  .wrapper__contact {
-    margin-left: 50%;
-  }
-  .wrapper_introduction {
-    margin-left: 30%;
-  }
-  .wrapper__skills {
-    margin-left: 34%;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .wrapper-column {
-    margin-left: 5%;
-  }
-  .left-column {
-    margin-left: 0px !important;
-    width: 100%;
-  }
-  .right-column {
-    margin-left: -200px !important;
-    width: 100%;
-  }
-  .software {
-    margin-bottom: 50px;
-  }
-  .education__master-degree {
-    font-size: 1.7em !important;
-  }
-  .education h3,
-  p {
-    font-size: 1em !important;
-  }
-  .experience__company-name {
-    font-size: 1.7em !important;
-  }
-  .experience h3,
-  p {
-    font-size: 1em !important;
-  }
-}
-@media screen and (max-width: 864px) {
-  .wrapper-column {
-    margin-left: 0;
-  }
-  .left-column {
-    width: 80%;
-  }
-  .right-column {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 815px) {
-  .wrapper-column {
-    display: block !important;
-  }
-  .left-column {
-    margin: 0 auto !important;
-  }
-  .right-column {
-    margin: 0 auto !important;
-    width: 100%;
-  }
-  .software__after-effects-title span {
-    left: 11.5% !important;
-  }
-  .software__after-effects-level {
-    position: relative;
-    left: -1% !important;
-  }
-  .software__dreamweaver-title span {
-    left: 11.5% !important;
-  }
-  .software__dreamweaver-level {
-    position: relative;
-    left: -1% !important;
-  }
-  .software__html-and-css3-title span {
-    left: 11.5% !important;
-  }
-  .software__html-and-css3-level {
-    position: relative;
-    left: -1% !important;
-  }
-  .contact__address h3 {
-    font-size: 1.2em !important;
-  }
-  .contact__address span {
-    font-size: 1.2em !important;
-  }
-  .contact__e-mail h3 {
-    font-size: 1.1em !important;
-  }
-  .contact__e-mail span {
-    font-size: 1.2em !important;
-  }
-  .contact__phone h3 {
-    font-size: 1.2em !important;
-  }
-  .contact__phone span {
-    font-size: 1.2em !important;
-  }
-  .contact__website h3 {
-    font-size: 1.2em !important;
-  }
-  .contact__website span {
-    font-size: 1.2em !important;
-  }
-}
-@media screen and (max-width: 789px) {
-  .software__after-effects-level {
-    position: relative;
-    left: -1.5% !important;
-  }
-  .software__dreamweaver-level {
-    position: relative;
-    left: -1.5% !important;
-  }
-  .software__html-and-css3-level {
-    position: relative;
-    left: -1.5% !important;
-  }
-}
-@media screen and (max-width: 754px) {
-  .software__after-effects-level {
-    position: relative;
-    left: -2% !important;
-  }
-  .software__dreamweaver-level {
-    position: relative;
-    left: -2% !important;
-  }
-  .software__html-and-css3-level {
-    position: relative;
-    left: -2% !important;
-  }
-}
-@media screen and (max-width: 717px) {
-  .introduction__name {
-    font-size: 3.1em !important;
-  }
-  .introduction__surname {
-    font-size: 3.61em !important;
-  }
-  .introduction__job {
-    font-size: 1.28em !important;
-  }
-  .software__after-effects-level {
-    position: relative;
-    left: -3% !important;
-  }
-  .software__dreamweaver-level {
-    position: relative;
-    left: -3% !important;
-  }
-  .software__html-and-css3-level {
-    position: relative;
-    left: -3% !important;
-  }
-}
-@media screen and (max-width: 674px) {
-  .software__after-effects-level {
-    position: relative;
-    left: -4% !important;
-  }
-  .software__dreamweaver-level {
-    position: relative;
-    left: -4% !important;
-  }
-  .software__html-and-css3-level {
-    position: relative;
-    left: -4% !important;
-  }
-}
-@media screen and (max-width: 646px) {
-  .software__after-effects-level {
-    position: relative;
-    left: -5% !important;
-  }
-  .software__dreamweaver-level {
-    position: relative;
-    left: -5% !important;
-  }
-  .software__html-and-css3-level {
-    position: relative;
-    left: -5% !important;
-  }
-}
-@media screen and (max-width: 619px) {
-  .education__master-degree {
-    font-size: 1.6em !important;
-  }
-  .experience__company-name {
-    font-size: 1.6em !important;
-  }
-}
-@media screen and (max-width: 591px) {
-  .education__master-degree {
-    font-size: 1.5em !important;
-  }
-  .experience__company-name {
-    font-size: 1.5em !important;
-  }
-}
-@media screen and (max-width: 556px) {
-  .wrapper__skills {
-    margin-left: -17%;
-    width: 115%;
-  }
-  .wrapper__contact {
-    margin-left: 0%;
-  }
-  .wrapper-column {
-    margin-left: -25%;
-  }
-}
-@media screen and (max-width: 563px) {
-  .education__master-degree {
-    font-size: 1.4em !important;
-  }
-  .experience__company-name {
-    font-size: 1.4em !important;
-  }
-}
-@media screen and (max-width: 535px) {
-  .education__master-degree {
-    font-size: 1.3em !important;
-  }
-  .experience__company-name {
-    font-size: 1.3em !important;
-  }
-}
-@media screen and (max-width: 507px) {
-  .education__master-degree {
-    font-size: 1.2em !important;
-  }
-  .experience__company-name {
-    font-size: 1.2em !important;
-  }
-}
-@media screen and (max-width: 502px) {
-  li {
-    margin-bottom: 7%;
-  }
-}
-@media screen and (max-width: 480px) {
-  .education__master-degree {
-    font-size: 1.1em !important;
-  }
-  .experience__company-name {
-    font-size: 1.1em !important;
-  }
-}
-@media screen and (max-width: 451px) {
-  .education__master-degree {
-    font-size: 1.1em !important;
-  }
-  .experience__company-name {
-    font-size: 1.1em !important;
-  }
-  li {
-    margin-bottom: 20%;
-  }
-}
-@media screen and (max-width: 407px) {
-  li {
-    margin-bottom: 30%;
-  }
-}
-@media screen and (max-width: 371px) {
-  li {
-    margin-bottom: 40%;
-  }
-}
-@media screen and (max-width: 353px) {
-  li {
-    margin-bottom: 50%;
-  }
-}
-@media screen and (max-width: 346px) {
-  li {
-    margin-bottom: 60%;
-  }
-}
-@media screen and (max-width: 330px) {
-  li {
-    margin-bottom: 70%;
-  }
-}
-@media screen and (max-width: 320px) {
-  li {
-    margin-bottom: 80%;
-  }
-}
 .wrapper {
   display: flex;
   flex-wrap: nowrap;
@@ -864,7 +365,7 @@ table {
 }
 .skills__creative-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   display: block;
   position: relative;
@@ -911,7 +412,7 @@ table {
 }
 .skills__teamwork-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -3px;
@@ -957,7 +458,7 @@ table {
 }
 .skills__innovate-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -4px;
@@ -1003,7 +504,7 @@ table {
 }
 .skills__communication-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -4px;
@@ -1248,7 +749,7 @@ table {
 }
 .software__photoshop-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -4px;
@@ -1278,7 +779,7 @@ table {
 }
 .software__illustrator-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -12px;
@@ -1308,7 +809,7 @@ table {
 }
 .software__indesign-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -19px;
@@ -1338,7 +839,7 @@ table {
 }
 .software__dreamweaver-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -4px;
@@ -1368,7 +869,7 @@ table {
 }
 .software__after-effects-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -13px;
@@ -1398,7 +899,7 @@ table {
 }
 .software__html-and-css3-title span {
   font-family: 'MyriadPro-Regular';
-  font-size: 28px;
+  font-size: 1.8em;
   text-transform: uppercase;
   position: relative;
   bottom: -19px;
@@ -1422,4 +923,1110 @@ table {
   top: -7px;
   left: 86px;
   background: #e6e6e6;
+}
+@media screen and (max-width: 1310px) {
+  .right-column {
+    margin-left: -56px;
+  }
+}
+@media screen and (max-width: 1264px) {
+  li {
+    margin-bottom: 12%;
+  }
+  li:last-child {
+    margin-bottom: 3%;
+  }
+  .profile__title hr {
+    width: 33.2% !important;
+    left: 97px !important;
+  }
+  .contact__title hr {
+    width: 43.4% !important;
+    left: 186px !important;
+  }
+  .skills__title hr {
+    width: 53.4% !important;
+    left: 159px !important;
+  }
+  .education__title hr {
+    width: 49% !important;
+    left: 174px !important;
+  }
+  .experience__title hr {
+    left: -5px !important;
+  }
+  .software__title hr {
+    left: 9px !important;
+  }
+}
+@media screen and (max-width: 1213px) {
+  .software__after-effects-level,
+  .software__dreamweaver-level,
+  .software__html-and-css3-level,
+  .software__illustrator-level,
+  .software__indesign-level,
+  .software__photoshop-level {
+    width: 90%;
+  }
+  .profile__title hr {
+    left: 103px !important;
+  }
+  .contact__title hr {
+    left: 194px !important;
+  }
+}
+@media screen and (max-width: 1156px) {
+  .software__after-effects-level,
+  .software__dreamweaver-level,
+  .software__html-and-css3-level,
+  .software__illustrator-level,
+  .software__indesign-level,
+  .software__photoshop-level {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .profile__title hr {
+    width: 30.2% !important;
+    left: 111px !important;
+  }
+  .contact__title hr {
+    width: 40.4% !important;
+    left: 196px !important;
+  }
+}
+@media screen and (max-width: 1118px) {
+  .wrapper__skills {
+    margin-left: -56px;
+  }
+}
+@media screen and (max-width: 1098px) {
+  .right-column {
+    margin-left: -76px;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .profile__title {
+    font-size: 2.6em !important;
+  }
+  .profile__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .profile__title hr {
+    width: 33.2% !important;
+    top: -71px !important;
+    left: 92px !important;
+  }
+  .contact__title {
+    font-size: 2.6em !important;
+  }
+  .contact__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .contact__title hr {
+    top: -74px !important;
+    width: 43.4% !important;
+    left: 180px !important;
+  }
+  .skills__title {
+    font-size: 2.6em !important;
+  }
+  .skills__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .skills__title hr {
+    left: 149px !important;
+  }
+  .software__title {
+    font-size: 2.6em !important;
+  }
+  .software__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .education__title {
+    font-size: 2.6em !important;
+  }
+  .education__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .education__title hr {
+    left: 160px !important;
+    top: -76px !important;
+  }
+  .experience__title {
+    font-size: 2.6em !important;
+  }
+  .experience__title img {
+    height: 70px !important;
+    width: 70px !important;
+  }
+  .experience__title hr {
+    left: -10px !important;
+    bottom: 9px !important;
+  }
+  .software__title hr {
+    left: 5px !important;
+    bottom: 5px !important;
+  }
+  .wrapper__skills {
+    margin-left: -45px;
+  }
+  .experience__title hr {
+    left: -10px !important;
+    bottom: 9px !important;
+  }
+}
+@media screen and (max-width: 1049px) {
+  .profile__title hr {
+    width: 29.2% !important;
+  }
+  .contact__title hr {
+    width: 36.4% !important;
+    left: 176px !important;
+  }
+  .skills__title hr {
+    width: 46.4% !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .right-column {
+    margin-left: -105px;
+  }
+  .profile__title hr {
+    width: 23.2% !important;
+  }
+  .contact__title hr {
+    width: 31.4% !important;
+    left: 168px !important;
+  }
+  .skills__title hr {
+    width: 46.4% !important;
+  }
+  .education__title hr {
+    width: 40% !important;
+  }
+}
+@media screen and (max-width: 975px) {
+  .experience__company-name {
+    font-size: 1.5em !important;
+  }
+  .education__master-degree {
+    font-size: 1.5em !important;
+  }
+  .profile__title {
+    font-size: 2.4em !important;
+  }
+  .profile__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .profile__title span {
+    top: -22px !important;
+  }
+  .profile__title hr {
+    top: -65px !important;
+  }
+  .contact__title {
+    font-size: 2.4em !important;
+  }
+  .contact__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .contact__title span {
+    top: -21px !important;
+  }
+  .contact__title hr {
+    top: -65px !important;
+  }
+  .skills__title {
+    font-size: 2.4em !important;
+  }
+  .skills__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .skills__title hr {
+    left: 134px !important;
+    bottom: 65px !important;
+  }
+  .software__title {
+    font-size: 2.4em !important;
+  }
+  .software__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .education__title {
+    font-size: 2.4em !important;
+  }
+  .education__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+  .education__title hr {
+    left: 137px !important;
+  }
+  .experience__title {
+    font-size: 2.4em !important;
+  }
+  .experience__title img {
+    height: 65px !important;
+    width: 65px !important;
+  }
+}
+@media screen and (max-width: 946px) {
+  .software__after-effects-level,
+  .software__dreamweaver-level,
+  .software__html-and-css3-level,
+  .software__illustrator-level,
+  .software__indesign-level,
+  .software__photoshop-level {
+    width: 70%;
+  }
+  .contact__title hr {
+    left: 160px !important;
+  }
+  .education__title span {
+    top: -21px !important;
+  }
+  .education__title hr {
+    top: -64px !important;
+  }
+  .experience__title span {
+    bottom: -12px !important;
+  }
+  .experience__title hr {
+    bottom: 13px !important;
+  }
+  .software__title span {
+    bottom: -14px !important;
+  }
+  .software__title hr {
+    bottom: 12px !important;
+  }
+  .contact__e-mail span {
+    font-size: 1.2em !important;
+  }
+}
+@media screen and (max-width: 920px) {
+  .wrapper {
+    display: block !important;
+    margin: 0px 65px !important;
+  }
+  .column1 {
+    width: 100% !important;
+    margin-left: -45px;
+  }
+  .column2 {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+  .profile__text {
+    width: 110% !important;
+  }
+  .wrapper__contact {
+    margin-left: 50%;
+  }
+  .wrapper_introduction {
+    margin-left: 30%;
+  }
+  .wrapper__skills {
+    margin-left: 34%;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .wrapper-column {
+    margin-left: 5%;
+  }
+  .left-column {
+    margin-left: 0px !important;
+    width: 100%;
+  }
+  .right-column {
+    margin-left: -200px !important;
+    width: 100%;
+  }
+  .software {
+    margin-bottom: 50px;
+  }
+  .education__master-degree {
+    font-size: 1.7em !important;
+  }
+  .education h3,
+  p {
+    font-size: 1em !important;
+  }
+  .experience__company-name {
+    font-size: 1.7em !important;
+  }
+  .experience h3,
+  p {
+    font-size: 1em !important;
+  }
+  .profile__title span {
+    top: -22px !important;
+  }
+  .profile__title hr {
+    width: 77.2% !important;
+    left: 153px !important;
+  }
+  .contact__title hr {
+    width: 112.2% !important;
+    left: 252px !important;
+  }
+  .skills__title hr {
+    width: 120.2% !important;
+    left: 211px !important;
+  }
+  .education__title hr {
+    width: 65% !important;
+    left: 143px !important;
+  }
+  .experience__title hr {
+    width: 65% !important;
+  }
+  .software__title hr {
+    width: 68% !important;
+  }
+  .contact__e-mail span {
+    font-size: 1.4em !important;
+  }
+  .introduction {
+    margin-left: auto;
+  }
+  li {
+    margin-bottom: 3%;
+  }
+}
+@media screen and (max-width: 864px) {
+  .wrapper-column {
+    margin-left: 0;
+  }
+  .left-column {
+    width: 80%;
+  }
+  .right-column {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 815px) {
+  .contact__address h3 {
+    font-size: 1.2em !important;
+  }
+  .contact__address span {
+    font-size: 1.2em !important;
+  }
+  .contact__e-mail h3 {
+    font-size: 1.1em !important;
+  }
+  .contact__e-mail span {
+    font-size: 1.2em !important;
+  }
+  .contact__phone h3 {
+    font-size: 1.2em !important;
+  }
+  .contact__phone span {
+    font-size: 1.2em !important;
+  }
+  .contact__website h3 {
+    font-size: 1.2em !important;
+  }
+  .contact__website span {
+    font-size: 1.2em !important;
+  }
+}
+@media screen and (max-width: 805px) {
+  .left-column {
+    width: 60%;
+    margin-right: auto;
+  }
+  .right-column {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 754px) {
+  .profile__title hr {
+    left: 176px !important;
+  }
+  .profile__text {
+    width: 116% !important;
+  }
+}
+@media screen and (max-width: 747px) {
+  .contact__title hr {
+    width: 105.2% !important;
+  }
+  .skills__title hr {
+    width: 115.2% !important;
+  }
+}
+@media screen and (max-width: 727px) {
+  .profile__title hr {
+    width: 72.2% !important;
+    left: 166px !important;
+  }
+  .education__title hr {
+    width: 60% !important;
+    left: 162px !important;
+  }
+}
+@media screen and (max-width: 717px) {
+  .introduction__name {
+    font-size: 3.1em !important;
+  }
+  .introduction__surname {
+    font-size: 3.61em !important;
+  }
+  .introduction__job {
+    font-size: 1.28em !important;
+  }
+  .software__after-effects-level {
+    position: relative;
+    left: -3% !important;
+  }
+  .software__dreamweaver-level {
+    position: relative;
+    left: -3% !important;
+  }
+  .software__html-and-css3-level {
+    position: relative;
+    left: -3% !important;
+  }
+}
+@media screen and (max-width: 674px) {
+  .software__dreamweaver-title span {
+    left: 74px !important;
+  }
+  .software__after-effects-title span {
+    left: 74px !important;
+  }
+  .software__html-and-css3-title span {
+    left: 74px !important;
+  }
+}
+@media screen and (max-width: 619px) {
+  .profile__title hr {
+    width: 61.2% !important;
+    left: 154px !important;
+  }
+  .contact__title hr {
+    width: 84.2% !important;
+    left: 235px !important;
+  }
+  .skills__title hr {
+    width: 101.2% !important;
+  }
+  .education__title hr {
+    width: 43% !important;
+    left: 132px !important;
+  }
+  .education__master-degree {
+    font-size: 1.6em !important;
+  }
+  .experience__company-name {
+    font-size: 1.6em !important;
+  }
+}
+@media screen and (max-width: 591px) {
+  .education__master-degree {
+    font-size: 1.5em !important;
+  }
+  .experience__company-name {
+    font-size: 1.5em !important;
+  }
+}
+@media screen and (max-width: 563px) {
+  .education__master-degree {
+    font-size: 1.4em !important;
+  }
+  .experience__company-name {
+    font-size: 1.4em !important;
+  }
+}
+@media screen and (max-width: 561px) {
+  .profile__text {
+    width: 126% !important;
+  }
+  .education__description {
+    width: 103% !important;
+  }
+  .experience__description {
+    width: 103% !important;
+  }
+  .software__photoshop-title span {
+    font-size: 1.6em !important;
+  }
+  .software__illustrator-title span {
+    font-size: 1.6em !important;
+  }
+  .software__indesign-title span {
+    font-size: 1.6em !important;
+  }
+  .software__dreamweaver-title span {
+    font-size: 1.6em !important;
+    left: 79px !important;
+  }
+  .software__after-effects-title span {
+    font-size: 1.6em !important;
+    left: 79px !important;
+  }
+  .software__html-and-css3-title span {
+    font-size: 1.6em !important;
+    left: 79px !important;
+  }
+}
+@media screen and (max-width: 535px) {
+  .education__master-degree {
+    font-size: 1.3em !important;
+  }
+  .experience__company-name {
+    font-size: 1.3em !important;
+  }
+  .education__title hr {
+    width: 45% !important;
+    left: 150px !important;
+  }
+  .experience__title hr {
+    position: absolute !important;
+    width: 45% !important;
+    left: 268px !important;
+    bottom: 940px !important;
+  }
+  .software__title hr {
+    position: absolute !important;
+    width: 45% !important;
+    left: 268px !important;
+    bottom: 298px !important;
+  }
+  .software__photoshop-title span {
+    font-size: 1.4em !important;
+  }
+  .software__illustrator-title span {
+    font-size: 1.4em !important;
+  }
+  .software__indesign-title span {
+    font-size: 1.4em !important;
+  }
+  .software__dreamweaver-title span {
+    font-size: 1.4em !important;
+    left: 79px !important;
+  }
+  .software__after-effects-title span {
+    font-size: 1.4em !important;
+    left: 79px !important;
+  }
+  .software__html-and-css3-title span {
+    font-size: 1.4em !important;
+    left: 79px !important;
+  }
+}
+@media screen and (max-width: 507px) {
+  .education__master-degree {
+    font-size: 1.2em !important;
+  }
+  .experience__company-name {
+    font-size: 1.2em !important;
+  }
+  .software__title hr {
+    left: 251px !important;
+  }
+  .experience__title hr {
+    width: 42% !important;
+    left: 263px !important;
+  }
+}
+@media screen and (max-width: 502px) {
+  li {
+    margin-bottom: 7%;
+  }
+  .experience__title hr {
+    bottom: 959px !important;
+  }
+  .software__title hr {
+    bottom: 287px !important;
+  }
+}
+@media screen and (max-width: 499px) {
+  .introduction {
+    margin-left: 33% !important;
+  }
+  .profile__title hr {
+    width: 113.2% !important;
+    left: 230px !important;
+  }
+  .contact__title hr {
+    width: 159.2% !important;
+    left: 247px !important;
+  }
+  .skills__title hr {
+    width: 175.2% !important;
+  }
+  .education__title hr {
+    width: 96% !important;
+    left: 253px !important;
+  }
+  .experience__title hr {
+    width: 96% !important;
+  }
+  .software__title hr {
+    width: 94% !important;
+  }
+  .profile__text {
+    width: 173% !important;
+  }
+  .wrapper__skills {
+    width: 150%;
+  }
+  .education__description {
+    width: 153% !important;
+  }
+  .experience__description {
+    width: 153% !important;
+  }
+  .wrapper-column {
+    width: 166% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .education__master-degree {
+    font-size: 1.1em !important;
+  }
+  .profile__text {
+    width: 178% !important;
+  }
+  .experience__company-name {
+    font-size: 1.1em !important;
+  }
+  .profile__title hr {
+    width: 107.2% !important;
+    left: 235px !important;
+  }
+  .contact__title hr {
+    width: 149.2% !important;
+    left: 257px !important;
+  }
+  .skills__title hr {
+    width: 170.2% !important;
+  }
+  .education__title hr {
+    width: 88% !important;
+    left: 245px !important;
+  }
+  .experience__title hr {
+    bottom: 955px !important;
+    width: 84% !important;
+    left: 275px !important;
+  }
+  .software__title hr {
+    bottom: 286px !important;
+    width: 89% !important;
+  }
+  .experience__description {
+    width: 151% !important;
+  }
+  .education__description {
+    width: 151% !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  .profile__title img {
+    height: 59px !important;
+    width: 59px !important;
+  }
+  .profile__title span {
+    font-size: 0.8em;
+  }
+  .profile__title hr {
+    width: 125.2% !important;
+    left: 209px !important;
+    top: -61px !important;
+  }
+  .profile__text {
+    width: 193% !important;
+  }
+  .contact__title img {
+    height: 59px !important;
+    width: 59px !important;
+  }
+  .contact__title span {
+    font-size: 0.8em;
+  }
+  .contact__title hr {
+    left: 213px !important;
+    width: 179.2% !important;
+    top: -61px !important;
+  }
+  .skills__title img {
+    height: 59px !important;
+    width: 59px !important;
+  }
+  .skills__title span {
+    font-size: 0.8em;
+  }
+  .skills__title hr {
+    width: 191.2% !important;
+    left: 186px !important;
+  }
+  .software__title img {
+    height: 59px !important;
+    width: 59px !important;
+  }
+  .software__title span {
+    font-size: 0.8em;
+  }
+  .software__title hr {
+    bottom: 286px !important;
+    width: 115% !important;
+    left: 200px !important;
+  }
+  .education__title img {
+    height: 59px !important;
+    width: 59px !important;
+  }
+  .education__title span {
+    font-size: 0.8em;
+  }
+  .education__title hr {
+    top: -61px !important;
+    left: 227px !important;
+    width: 108% !important;
+  }
+  .experience__title img {
+    height: 59px !important;
+    width: 59px !important;
+  }
+  .experience__title span {
+    font-size: 0.8em;
+  }
+  .experience__title hr {
+    bottom: 943px !important;
+    width: 107% !important;
+    left: 221px !important;
+  }
+}
+@media screen and (max-width: 451px) {
+  .education__master-degree {
+    white-space: nowrap;
+  }
+  .experience__company-name {
+    white-space: nowrap;
+  }
+}
+@media screen and (max-width: 415px) {
+  .experience__title hr {
+    bottom: 1232px !important;
+  }
+}
+@media screen and (max-width: 433px) {
+  .profile__title hr {
+    width: 107.2% !important;
+  }
+  .contact__title hr {
+    width: 154.2% !important;
+  }
+  .skills__title hr {
+    width: 169.2% !important;
+  }
+  .education__title hr {
+    left: 206px !important;
+    width: 93% !important;
+  }
+  .experience__title hr {
+    bottom: 939px !important;
+    width: 88% !important;
+  }
+  .software__title hr {
+    bottom: 284px !important;
+    width: 97% !important;
+  }
+  .profile__text {
+    width: 172% !important;
+  }
+}
+@media screen and (max-width: 404px) {
+  .contact__title span {
+    top: -57px !important;
+    left: 76px !important;
+  }
+  .contact__title hr {
+    top: -98px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .introduction {
+    margin-left: 25% !important;
+  }
+  .wrapper__contact {
+    margin-left: 0%;
+  }
+  .wrapper__skills {
+    margin-left: -45px;
+    width: 170%;
+  }
+  .skills__creative-title span {
+    font-size: 1.6em !important;
+  }
+  .skills__teamwork-title span {
+    font-size: 1.6em !important;
+  }
+  .skills__innovate-title span {
+    font-size: 1.6em !important;
+  }
+  .skills__communication-title span {
+    font-size: 1.6em !important;
+  }
+  .education__description {
+    width: 145% !important;
+  }
+  .experience__description {
+    width: 145% !important;
+  }
+  .profile__title hr {
+    width: 96.2% !important;
+    top: -63px !important;
+  }
+  .contact__title hr {
+    width: 143.2% !important;
+  }
+  .skills__title hr {
+    width: 160.2% !important;
+  }
+  .education__title hr {
+    left: 185px !important;
+    width: 81% !important;
+  }
+  .experience__title hr {
+    bottom: 924px !important;
+    width: 76% !important;
+  }
+  .software__title hr {
+    bottom: 275px !important;
+    width: 85% !important;
+  }
+  .wrapper-column {
+    width: 134% !important;
+  }
+  .software__photoshop-title span {
+    font-size: 1.2em !important;
+  }
+  .software__illustrator-title span {
+    font-size: 1.2em !important;
+  }
+  .software__indesign-title span {
+    font-size: 1.2em !important;
+  }
+  .software__dreamweaver-title span {
+    font-size: 1.2em !important;
+    left: 79px !important;
+  }
+  .software__after-effects-title span {
+    font-size: 1.2em !important;
+    left: 79px !important;
+  }
+  .software__html-and-css3-title span {
+    font-size: 1.2em !important;
+    left: 79px !important;
+  }
+  .education__description {
+    width: 130% !important;
+  }
+  .experience__description {
+    width: 130% !important;
+  }
+}
+@media screen and (max-width: 371px) {
+  .experience__title hr {
+    bottom: 918px !important;
+    width: 69% !important;
+  }
+  .software__title hr {
+    bottom: 276px !important;
+    width: 77% !important;
+  }
+  .wrapper__skills {
+    margin-left: -45px;
+    width: 190%;
+  }
+  .profile__title hr {
+    width: 90.2% !important;
+    left: 190px !important;
+    top: -61px !important;
+  }
+  .contact__title hr {
+    width: 126.2% !important;
+  }
+  .skills__title hr {
+    width: 145.2% !important;
+  }
+  .education__title hr {
+    left: 180px !important;
+    width: 75% !important;
+  }
+}
+@media screen and (max-width: 353px) {
+  .introduction {
+    margin-left: 10% !important;
+  }
+  .education__title span {
+    top: -22px !important;
+    left: -35px !important;
+  }
+  .education__title hr {
+    top: -62px !important;
+    left: 168px !important;
+  }
+  .experience__title hr {
+    bottom: 956px !important;
+    width: 64% !important;
+  }
+  .software__title hr {
+    width: 73% !important;
+  }
+  .skills__creative-title span {
+    font-size: 1.4em !important;
+    left: 133px !important;
+  }
+  .skills__teamwork-title span {
+    font-size: 1.4em !important;
+    left: 133px !important;
+  }
+  .skills__innovate-title span {
+    font-size: 1.4em !important;
+    left: 133px !important;
+  }
+  .skills__communication-title span {
+    font-size: 1.4em !important;
+    left: 133px !important;
+  }
+  li {
+    margin-bottom: 15%;
+  }
+}
+@media screen and (max-width: 352px) {
+  .education__title span {
+    top: -57px !important;
+    left: 21px !important;
+  }
+  .education__title hr {
+    top: -95px !important;
+  }
+}
+@media screen and (max-width: 349px) {
+  .skills__title span {
+    top: -56px !important;
+    left: 72px !important;
+  }
+  .skills__title hr {
+    top: -97px !important;
+    left: 195px !important;
+  }
+}
+@media screen and (max-width: 333px) {
+  .skills__title hr {
+    width: 128.2% !important;
+    left: 192px !important;
+  }
+  .experience__title hr {
+    bottom: 951px !important;
+    width: 52% !important;
+  }
+  .wrapper__skills {
+    width: 186%;
+  }
+  .skills__creative-title span {
+    font-size: 1.4em !important;
+    left: 113px !important;
+  }
+  .skills__teamwork-title span {
+    font-size: 1.4em !important;
+    left: 113px !important;
+  }
+  .skills__innovate-title span {
+    font-size: 1.4em !important;
+    left: 113px !important;
+  }
+  .skills__communication-title span {
+    font-size: 1.4em !important;
+    left: 73px !important;
+  }
+  .profile__title hr {
+    width: 70.2% !important;
+    left: 176px !important;
+  }
+  .contact__title hr {
+    width: 110.2% !important;
+  }
+  .education__title hr {
+    left: 162px !important;
+    width: 64% !important;
+  }
+  .software__title hr {
+    width: 60% !important;
+  }
+  .software__photoshop-title span {
+    font-size: 1em !important;
+  }
+  .software__illustrator-title span {
+    font-size: 1em !important;
+  }
+  .software__indesign-title span {
+    font-size: 1em !important;
+  }
+  .software__dreamweaver-title span {
+    font-size: 1em !important;
+    left: 81px !important;
+  }
+  .software__after-effects-title span {
+    font-size: 1em !important;
+    left: 81px !important;
+  }
+  .software__html-and-css3-title span {
+    font-size: 1em !important;
+    left: 81px !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  li {
+    margin-bottom: 23%;
+  }
+  .experience__title hr {
+    bottom: 976px !important;
+  }
+  .software__title hr {
+    bottom: 266px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .experience h3 {
+    font-size: 0.9em !important;
+  }
+  .experience p {
+    font-size: 0.9em !important;
+  }
+  .education h3 {
+    font-size: 0.9em !important;
+  }
+  .education p {
+    font-size: 0.9em !important;
+  }
+  .experience__title hr {
+    width: 45% !important;
+    bottom: 973px !important;
+  }
+  .education__title hr {
+    left: 156px !important;
+    width: 60% !important;
+  }
+  .skills__title hr {
+    left: 179px !important;
+  }
+  .software__title hr {
+    width: 55% !important;
+  }
 }
